@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Clock, Users, ArrowLeft, RefreshCw, Sparkles, Activity, ShieldCheck, Heart, CheckCircle, Calendar } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8080/api/tokens';
+const API_BASE_URL = 'https://smart-clinic-final.onrender.com/api/tokens';
 
 export default function PatientView({ token: initialToken, setView }) {
   const [token, setToken] = useState(initialToken);

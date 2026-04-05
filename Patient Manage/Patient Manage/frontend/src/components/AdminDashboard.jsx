@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Users, CheckCircle, Bell, XCircle, Play, RefreshCw, UserCheck, Calendar, Activity, Trash2 } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8080/api/tokens';
+const API_BASE_URL = 'https://smart-clinic-final.onrender.com/api/tokens';
 
 export default function AdminDashboard({ setView }) {
   const [tokens, setTokens] = useState([]);
